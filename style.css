@@ -1,28 +1,40 @@
-body{
+body {
     font-family: 'Anton', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-.akli{
+
+.akli {
     color: chartreuse;
 }
-section{
+
+section {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding-right: 5%;
     padding-left: 5%;
 }
-.half-width img{
-width: 60%;
+
+.half-width img {
+    width: 60%;
 }
-.link-button{
+
+.link-button {
     text-decoration: none;
-    background-image :linear-gradient(orange,tomato) ;
+    background-image: linear-gradient(orange, tomato);
     padding: 7px 20px;
     border-radius: 13px;
     color: aliceblue;
     font-weight: 500;
+}
+
+.top-benner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    padding: 2%;
 }
