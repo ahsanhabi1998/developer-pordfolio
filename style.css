@@ -12,6 +12,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -34,7 +35,13 @@ section {
 }
 
 .top-benner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 0%;
+}
+
+.driem-big {
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
-    padding: 2%;
+    background-position: right;
 }
